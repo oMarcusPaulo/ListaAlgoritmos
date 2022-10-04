@@ -1,0 +1,16 @@
+//8. Ler um valor inteiro e apresentar o seu quadrado e o seu cubo.
+
+programa{
+	funcao inicio(){
+
+		inteiro valor,q,c
+
+		escreva("Digite um valor: ")
+		leia(valor)
+
+		q = valor*valor
+		c = valor*valor*valor
+
+		escreva("O quadrado é: ",q,"\nO cubo é: ",c)
+	}
+}
