@@ -1,0 +1,22 @@
+//5. Ler dois valores A e B e efetuar a troca desses valores, onde a variável A passe a valer o valor da
+//variável B, e a variável B passe a valer o valor da variável A. Exiba os novos valores das variáveis.
+
+programa{
+	funcao inicio(){
+		inteiro a,b,c
+
+		escreva("Digite um valor para A: ")
+		leia(a)
+
+		escreva("Digite um valor para B: ")
+		leia(b)
+
+		//Criaremos uma váriavel auxiliar(c) para guardar os valores
+
+		c = a
+		a = b
+		b = c
+
+		escreva("A = ",a,"\nB = ",b)
+	}
+}
