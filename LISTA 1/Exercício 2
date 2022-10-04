@@ -1,0 +1,15 @@
+//2. Ler uma temperatura em graus Fahrenheit e apresentá-lo convertido em Celsius.
+
+programa{
+	funcao inicio(){
+		
+		real fahrenheit, celsius
+
+		escreva("Digite uma temperatura em fahrenheit: ")
+		leia(fahrenheit)
+		
+		celsius = (fahrenheit -32)*5/9
+
+		escreva("A temperatura em celsius é de: ",celsius)
+	}
+}
