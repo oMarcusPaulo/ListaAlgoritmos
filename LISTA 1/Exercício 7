@@ -1,0 +1,20 @@
+//7. Elaborar um programa que calcule o volume de uma caixa retangular.
+
+programa{
+	funcao inicio(){
+		real v,c,a,l
+
+		escreva("Digite a altura da caixa: ")
+		leia(a)
+
+		escreva("Digite o comprimento da caixa: ")
+		leia(c)
+
+		escreva("Digite a largura da caixa: ")
+		leia(l)
+
+		v = a*c*l
+
+		escreva("O volume da caixa é de: ",v)
+	}
+}
