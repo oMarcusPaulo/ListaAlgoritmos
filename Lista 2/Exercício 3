@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro x,y,q,r
+
+		leia(x)
+		leia(y)
+
+		q = x/y
+		r = x % y
+
+		escreva("Quociente = ",q,"\nResto = ",r)
+	}
+}
