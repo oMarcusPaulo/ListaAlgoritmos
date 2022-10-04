@@ -1,0 +1,12 @@
+programa{
+    funcao inicio(){
+        inteiro n,s
+        escreva("Digite um valor para N: ")
+        leia(n)
+
+        s = n+1
+
+        escreva("O sucessor de",n,"é: ",s)
+
+        }
+    }
