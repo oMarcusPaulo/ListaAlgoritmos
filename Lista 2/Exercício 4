@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real a,b,s,p,q
+
+		leia(a)
+		leia(b)
+
+		s = a+b
+		p = a*b
+		q = a/b
+
+		escreva("Soma = ",s,"\nProduto = ",p,"\nQuociente = ",q)
+		
+	}
+}
