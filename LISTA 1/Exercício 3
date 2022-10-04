@@ -1,0 +1,17 @@
+//3. Calcular e apresentar o valor do volume de uma lata de óleo, quando se passa como parâmetroso raio e a altura da lata
+
+programa{
+	funcao inicio(){
+		real volume,raio,altura
+
+		escreva("Digite o raio da lata: ")
+		leia(raio)
+
+		escreva("Digite a altura da lata: ")
+		leia(altura)
+
+		volume = 3.14*(raio*raio)*altura
+
+		escreva("O volume da lata é: ",volume)
+	}
+}
