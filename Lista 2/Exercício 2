@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real p,mm
+		
+		escreva("Digite a quantidade de chuva em polegadas: ")
+		leia(p)
+
+		mm = p * 25.4
+
+		escreva("A quantidade de chuva em milimetros é: ",mm)
+	}
+}
