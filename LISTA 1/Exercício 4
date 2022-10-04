@@ -1,0 +1,15 @@
+//4. Efetuar o cálculo da quantidade de litros de combustível gasto em uma viagem, utilizando um
+//automóvel que faz 12 Km/l. O usuário deverá informar a distância percorrida.
+
+programa{
+	funcao inicio(){
+		real qg,dp
+
+		escreva("Digite a distância percorrida: ")
+		leia(dp)
+
+		qg = dp/12
+
+		escreva("A quantidade de combustível gasto é de: ",qg)
+	}
+}
