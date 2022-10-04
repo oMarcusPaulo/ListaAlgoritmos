@@ -1,0 +1,25 @@
+//6. Ler 4 valores e apresentar a soma e a multiplicação destes.
+
+programa{
+	funcao inicio(){
+
+		inteiro v1,v2,v3,v4,s,m
+
+		escreva("Digite um valor para A: ")
+		leia(v1)
+		
+		escreva("Digite um valor para B: ")
+		leia(v2)
+	
+		escreva("Digite um valor para C: ")
+		leia(v3)
+		
+		escreva("Digite um valor para D: ")
+		leia(v4)
+
+		s = v1+v2+v3+v4
+		m = v1*v2*v3*v4
+
+		escreva("O resultado da soma é de: ",s,"\nO resultado da multiplicação é de: ",m)
+	}
+}
